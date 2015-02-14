@@ -7,5 +7,5 @@ def summing_n(n)
 end
 
 def n_series(n)
-  return (n*n)-(n-1)*(n-1)
+  return ((n*n)-(n-1)*(n-1)) % (1000000000+7)
 end
